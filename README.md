@@ -15,4 +15,5 @@ mvn package && java -jar target/RestfulService-0.0.1-SNAPSHOT.jar
 sudo npm -g
 npm start
 ```
+Check out the releases I make as I gradually add features to it.
 Happy hacking!
