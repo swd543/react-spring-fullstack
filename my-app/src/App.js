@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import GenericButton from './components/GenericButton';
+import GenericTextEntry from './components/GenericTextEntry';
 
 class App extends Component {
   constructor(props){
@@ -31,6 +32,7 @@ class App extends Component {
         <p className="App-intro">
           Last refreshed at {new Date(this.state.beers).toUTCString()}
         </p>
+        <GenericTextEntry/>
         <GenericButton url="http://localhost:8080/ping" name="Ping"/>
         <GenericButton url="http://localhost:8080/users" name="Users"/>
         <GenericButton url="http://localhost:8080/time" name="Time"/>
